@@ -9,8 +9,8 @@ var normalage = age - 70;
 var name = "Dottie"
 var email = "dorothy@gmail.com"
 var age = "99"
-//var country = "usa"
-//var salary = "100000"
+var country = "usa"
+var salary = "100000"
 
 console.log(user,age,isstudent);
 //concatenation
@@ -23,7 +23,7 @@ let partnername = "Ben"
 let geolocation = "Oklahoma"
 let jobtitle = "Military"
 
-//document.write(`You will be in the ${jobtitle} in ${geolocation} and married to ${partnername} with ${childrennumber} kids.`)
+document.write(`You will be in the ${jobtitle} in ${geolocation} and married to ${partnername} with ${childrennumber} kids.`)
 
 var name = "Dottie";
 var email = "dorothy.schwark@gmail.com";
@@ -32,20 +32,21 @@ var age = "41";
 var country = "America";
 var salary = 15000*12;
 
-//document.write(`
-//<p>Name: ${name}</P>
-//<p>Email: ${email}</p>
-//<p>Salary: ${salary}</p>
-//`)
+document.write(`
+<p>Name: ${name}</P>
+<p>Email: ${email}</p>
+<p>Salary: ${salary}</p>
+`)
 
 //homework assignmnet 1, 20 variables
+
 var selectlocation = "USA";
 var language = "english";
 var fullname = "Dottie";
 var email = "dorothy.schwark@gmail.com";
 var password = "enterpassword";
 var whoiswatching = "Adults";
-var search = "docusoap";
+var type = "docusoap";
 var browsebylanguage = "list languages";
 var newreleases = "list new shows";
 var tvshows = "list shows";
@@ -67,7 +68,7 @@ document.write(`
 <p>Email: ${email}</p>
 <p>Password:${password}</p>
 <p>Who is Watching: ${whoiswatching}</p>
-<p>Search: ${docusoap}</p>
+<p>Search: ${type}</p>
 <p>Browse by Language: ${language}</p>
 <p>New Releases:${newreleases}</p>
 <p>TV Shows ${tvshows}</p>
