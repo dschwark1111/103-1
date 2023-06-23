@@ -1,0 +1,19 @@
+h1{
+    margin: auto;
+    font-size: 4rem;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    background-color: #7de6e6
+}
+
+button{
+    background-color: rgb(167, 159, 163);
+    color: black;
+    font-size: 2rem;
+    height: 7vh;
+    border: black;
+
+}
