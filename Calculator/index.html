@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculatorstyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my awesome calculator</h1>
+        <div class="number1">
+            <input type="number" id="EnterFirstNumber" value="number1-input"> 
+            <span class="firstnuminput"> Enter First Number</span>
+        </div>
+        <div class="operation">
+            <input type="operations" id="EnterOperation"> 
+            <span class= "operationinput"> Enter Operation </span>
+        </div>
+        <div class="number2">
+            <input type="number" id="EnterSecondNumber" value="number2-input"> 
+            <span class= "secnumberinput"> Enter Second Number</span>
+        </div>
+        <button onclick="calculate();">Start Calculations</button>
+    </header>
+    <main>
+        <h2>Instrustions</h2>
+        <ol>
+            <li>Click on the button to start!</li>
+            <li> Add the two numbers into the prompt</li>
+            <li>The results of the four operators will be displayed (+ - * /)</li>
+        </ol>
+
+        <div id="results">
+
+        </div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+</html>
