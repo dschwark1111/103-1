@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
     <title>Task List 2023</title>
 </head>
 <body>
     <header>
-        <input type = "text" id="txttask">
-        <button onclick="registerTask();"> Add Task </button>
+        
     </header>
     <main>
         <h2>Task List</h2>
@@ -19,9 +19,11 @@
             <li> Laundry</li>
             <li> Clean office</li>-->
         </ul>
-        <p>Total of tasks: </p>
+        <p id="totaltasks">Total of tasks: </p>
     </main>
-    
+    <input type = "text" id="txttask">
+        <button onclick="registerTask();"> Add Task </button>
+
     <script src="todo.js"></script>
 </body>
 </html>

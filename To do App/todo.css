@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(229, 156, 229);
+}
+
+ul{
+    background-color:  rgb(246, 245, 243);
+}
+
+p#totaltasks{
+    background-color: rgb(246, 245, 243);
+}
+button{
+    background-color: black;
+    color: white;
+
+}
